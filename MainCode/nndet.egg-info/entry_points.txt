@@ -1,0 +1,14 @@
+[console_scripts]
+nndet_boxes2nii = scripts.utils:boxes2nii
+nndet_cls2fg = scripts.convert_cls2fg:main
+nndet_consolidate = scripts.consolidate:main
+nndet_env = scripts.utils:env
+nndet_eval = scripts.train:evaluate
+nndet_example = scripts.generate_example:main
+nndet_predict = scripts.predict:main
+nndet_prep = scripts.preprocess:main
+nndet_seg2det = scripts.convert_seg2det:main
+nndet_seg2nii = scripts.utils:seg2nii
+nndet_sweep = scripts.train:sweep
+nndet_train = scripts.train:train
+nndet_unpack = scripts.utils:unpack
